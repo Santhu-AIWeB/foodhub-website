@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+           
+            background-image: url(assets/images/Bg-1.jpg);
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            
+        }
+        header{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color: rgb(52, 50, 50);
+            position: sticky;
+            top: 0px;
+            
+        }
+        .right img{
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            margin: 5px 20px;
+            border-radius: 10px;
+        }
+        .left nav ul{
+            display: flex;
+            gap: 50px;
+            margin: 0px 20px;
+            list-style: none;
+            
+        }
+        .left nav ul a{
+            text-decoration: none;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .right nav ul{
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+        }
+        .left nav ul li img{
+           height: 19px;
+           width: 19px;
+        }
+        .right{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        .right nav ul a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 700;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            padding: 2px;
+        }
+        main img{
+            height: 400px;
+            width: 600px;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 1px 320px;
+        }
+        main h2{
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 100px;
+            display: flex;
+            justify-content: center;
+        }
+        .container-1{
+            margin: 50px;
+            display: grid;
+            grid-template-columns: 350px 350px 350px;
+            grid-template-rows: 350px 350px 350px;
+            justify-content: center;
+        }
+        .box{
+            
+            color: rgb(0, 0, 0);
+            text-align: center;
+            align-content: center;  
+        }
+        .box img{
+            height: 216px;
+            width: 298px;
+            border-radius: 5px;  
+        }
+        .box img:hover{
+            transform: scale(1.1);
+        }
+        .box h4{
+            color: white;
+            margin: 10px;
+        }
+        .box button{
+            border-radius: 7px;
+            padding: 10px 40px;
+            margin: 20px 70px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+            font-weight: 700;
+            background-color: darkturquoise;
+        }
+        .box button:hover{
+            transform: scale(1.2);
+            background-color: red;
+        }
+        footer{
+            background-color: rgb(52, 50, 50);
+        }
+        .container1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+       .right li{
+            list-style: none;
+       }
+        .right p{
+            margin-right: 20px;
+            color: white;
+        }
+        .right li img{
+            height: 20px;
+            width: 20px;
+            margin: 5px -50px;
+        }
+        .button{
+            display: flex;
+            justify-content: space-between;
+            border: 5px;
+        }
+        .button span{
+            background-color: white;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 600;
+        }
+        .button span a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <nav>
+                <ul>
+                    <li><img src="https://cdn-icons-png.freepik.com/256/10751/10751558.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="Home.html">Home</a></li>
+                    <li>
+                        <img src="https://cdn-icons-png.freepik.com/256/3815/3815523.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="About.html">About</a></li>
+                    <li><img src="https://cdn-icons-png.freepik.com/256/561/561611.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="Menu.html">Menu</a></li>
+                    <li><img src="https://cdn-icons-png.freepik.com/256/18158/18158230.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img src="assets/images/Logo.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="button">
+            <span><a href="veg.html">&lt;Return</a></span>
+            <span><a href="soups.html">Next&gt;</a></span>
+        </div>
+        <img src="https://www.apnachef.com/wp-content/uploads/2023/12/chicken-biryani-50-people-wide.jpg" alt="">
+        <h2>NON VEGETERIAN!</h2>
+    </main>
+    <section>
+        <div class="container-1">
+            <div class="box"><img src="https://t3.ftcdn.net/jpg/01/93/91/32/360_F_193913273_m18uxjyykl65LMtM4bC5FBHxGB14grbJ.jpg" alt="">
+            <h4>FRIED CHICKEN</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://www.bakingo.com/blog/wp-content/uploads/2023/01/biryani.jpg" alt="">
+            <h4>CHICKEN BIRYANI</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://static.vecteezy.com/system/resources/thumbnails/053/315/343/small_2x/delicious-tandoori-chicken-indian-cuisine-spicy-foodgraphy-photo.jpeg" alt="">
+            <h4>FRIED LEGS</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://blog.swiggy.com/wp-content/uploads/2024/06/Image-3_Kadhai-Chicken-1024x538.png" alt="">
+            <h4>CHICKEN WITH GRAVY</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://bali.queenstandoor.com/blog/wp-content/uploads/2024/04/Indian-chicken-food-in-bali.jpg" alt="">
+            <h4>SPICY LEGS</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Ip1T24lekSgn1F8EZjYr-nuCb0bWHc9l8w&s" alt="">
+            <h4>TANDOORI</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://c.ndtvimg.com/2022-05/pl007fjo_egg-curry_625x300_04_May_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675" alt="">
+            <h4>EGG CURRY</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://www.thespruceeats.com/thmb/m4wuXkDWvHE2Fcf-MdJ8Oy_5bpY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-eggs-in-a-basket-recipe-2097253-hero-07-43091f4f839c4a76aa83ac0e94910267.jpg" alt="">
+            <h4>BREAD OMLET</h4>
+            <button>ORDER</button></div>
+            <div class="box"><img src="https://assets.biggreenegg.eu/app/uploads/2023/05/08085602/topimage-kipburger-2023m05-800x533px.jpg" alt="">
+            <h4>CHICKEN BURGER</h4>
+            <button>ORDER</button></div>
+        </div>
+    </section>
+    <footer>
+        <div class="container1">
+             <div class="left">
+                 <h3>&copy;2025 Foodie Hub | All Rights Reserved</h3>
+             </div>
+             <div class="right">
+                 <p>Email : Foodiehub@restaurant.com</p>
+                 <li><img src="https://cdn-icons-png.freepik.com/256/15707/15707749.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt=""></li>
+                 <li><img src="https://cdn-icons-png.freepik.com/256/5968/5968764.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt=""></li>
+             </div>
+        </div>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+           background-image: url(assets/images/Bg-2.jpg);
+            background-color: aliceblue;
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            height: 100vh;
+            
+        }
+        header{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color: rgb(52, 50, 50);
+            position: sticky;
+            top: 0px;
+            
+        }
+        .right img{
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            margin: 5px 20px;
+            border-radius: 10px;
+        }
+        .left nav ul{
+            display: flex;
+            gap: 50px;
+            margin: 0px 20px;
+            list-style: none;
+            
+        }
+        .left nav ul a{
+            text-decoration: none;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .right nav ul{
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+        }
+        .left nav ul li img{
+           height: 19px;
+           width: 19px;
+        }
+        .left nav ul li img{
+           height: 19px;
+           width: 19px;
+        }
+        .right{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        .right nav ul a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 700;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            padding: 2px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #d9534f;
+        }
+        .contact-info, .contact-form {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .info-item {
+            margin-bottom: 15px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #5f5c55;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact-form button:hover{
+            background-color: green;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #d9534f;
+            text-decoration: none;
+        }
+        .social-icons h3{
+            color: white;
+        }
+        .social-icons img{
+            height: 30px;
+            width: 30px;
+        }
+        footer{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(52, 50, 50);
+        }
+        .container1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+       .right li{
+            list-style: none;
+       }
+        .right p{
+            margin-right: 20px;
+            color: white;
+        }
+        .right li img{
+            height: 20px;
+            width: 20px;
+            margin: 5px -50px;
+        }
+        header .right nav ul a:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <nav>
+                <ul>
+                    <li><img src="https://cdn-icons-png.freepik.com/256/10751/10751558.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="Home.html">Home</a></li>
+                    <li>
+                        <img src="https://cdn-icons-png.freepik.com/256/3815/3815523.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="About.html">About</a></li>
+                    <li><img src="https://cdn-icons-png.freepik.com/256/561/561611.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="Menu.html">Menu</a></li>
+                    <li><img src="https://cdn-icons-png.freepik.com/256/18158/18158230.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt="">
+                        <a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img src="assets/images/Logo.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Contact Us</h2>
+            
+            <div class="contact-info">
+                <h3>Our Location</h3>
+                <p class="info-item">📍 123 Foodie Street, City, Country</p>
+                <p class="info-item">📞 +123 456 7890</p>
+                <p class="info-item">📧 contact@foodiehub.com</p>
+                <p class="info-item">🕒 Open: 10:00 AM – 11:00 PM</p>
+            </div>
+    
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+<!--     
+            <h3>Find Us on Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353159049!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5775d7c59f7d5e5!2sRestaurant!5e0!3m2!1sen!2s!4v1614732525129!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe> -->
+            
+            <div class="social-icons">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="https://cdn-icons-png.freepik.com/256/15713/15713420.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt=""></a>
+                <a href="#"><img src="https://cdn-icons-png.freepik.com/256/1409/1409943.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt=""></a>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container1">
+             <div class="left">
+                 <h3>&copy;2025 Foodie Hub | All Rights Reserved</h3>
+             </div>
+             <div class="right">
+                 <p>Email : Foodiehub@restaurant.com</p>
+                 <li><img src="https://cdn-icons-png.freepik.com/256/15707/15707749.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt=""></li>
+                 <li><img src="https://cdn-icons-png.freepik.com/256/5968/5968764.png?ga=GA1.1.827304355.1734890998&semt=ais_hybrid" alt=""></li>
+             </div>
+        </div>
+     </footer>
+</body>
+</html>
